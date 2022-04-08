@@ -1,0 +1,102 @@
+/*   body  */
+body {
+    margin: 0px 10px;
+}
+
+.tr1 {
+    background-color: #000000;
+    color: white;
+}
+
+.logo {
+    color: white;
+    margin: 40px 0px;
+}
+
+.header-wrapper {
+    background-color: #000000;
+}
+
+nav {
+    background-color: #000000;
+}
+
+.box1 {
+    padding: 0px 20px;
+}
+
+.box2 {
+    padding: 0px 20px;
+}
+
+.box5 {
+    padding: 0px 20px;
+}
+
+.form-control {
+    margin-right: 3px;
+}
+
+.btn {
+    color: white;
+    border: 1px solid white;
+    margin: 0px 3px;
+}
+
+.footer{
+    background-color: #000000;
+}
+
+@media screen and (max-width: 649px) {
+    .site {
+        display: grid;
+        grid-template-rows: 0.1fr 1fr 1fr;
+        width: 100%;
+    }
+
+    .box1 {
+        grid-row: 2;
+        width: 100%;
+    }
+
+    .box2 {
+        grid-row: 1;
+        width: 100%;
+    }
+
+    .box5 {
+        grid-row: 3;
+        width: 100%;
+    }
+
+    .pres {
+        width: 100px;
+    }
+}
+
+@media screen and (min-width: 650px) {
+    .site {
+        display: grid;
+        grid-template-columns: 1fr 1.5fr 1fr;
+        width: 100%;
+    }
+
+    .box1 {
+        grid-column: 1;
+        width: 100%;
+    }
+
+    .box2 {
+        grid-column: 2;
+        width: 100%;
+    }
+
+    .box5 {
+        grid-column: 3;
+        width: 100%;
+    }
+
+    .pres {
+        width: 100px;
+    }
+}
