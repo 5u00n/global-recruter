@@ -100,3 +100,28 @@ nav {
         width: 100px;
     }
 }
+
+.table_hvr td:hover {background-color: rgb(203, 201, 204);}
+
+
+.rcm1 {
+    width: 80%;
+    margin-left: 10%;
+}
+
+.ora {
+    width: 100%;
+
+}
+
+.bbox {
+    background-color: aquamarine;
+    width: 70px;
+    box-shadow: 1px;
+    height: 100px;
+
+}
+
+.ht1 {
+    margin-top: 150px;
+}
