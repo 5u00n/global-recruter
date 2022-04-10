@@ -1,16 +1,22 @@
 /*   body  */
-body {
-    margin: 0px 10px;
+
+.head1 {
+    background-image: url(http://source.unsplash.com/1600x900/?exam);
+    border-image-repeat: no-repeat;
+    background-size: cover;
+    height: 150px;
 }
 
+
 .tr1 {
-    background-color: #000000;
+    background-color: #474e5d;
     color: white;
 }
 
 .logo {
     color: white;
     margin: 40px 0px;
+    text-shadow: #000000 4px 4px 10px;
 }
 
 .header-wrapper {
@@ -44,7 +50,11 @@ nav {
 }
 
 .footer{
-    background-color: #000000;
+    position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+    background-color: rgb(32, 31, 31);
 }
 
 @media screen and (max-width: 649px) {
@@ -79,6 +89,7 @@ nav {
         display: grid;
         grid-template-columns: 1fr 1.5fr 1fr;
         width: 100%;
+        margin-top: 20px;
     }
 
     .box1 {
