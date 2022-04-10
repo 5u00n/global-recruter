@@ -122,8 +122,6 @@
     margin: 0px 3px;
 }
 
-
-
 .button1:hover {
     background-color: #555;
 }
@@ -220,7 +218,6 @@
 .help-form {
     margin: 30px auto;
     width: 30%;
-
 }
 
 .bbox {
