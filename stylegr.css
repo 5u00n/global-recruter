@@ -15,9 +15,7 @@
     position: fixed;
     left: 0;
     bottom: 0;
-    width: 100%;
 }
-
 
 .head1 {
     background-image: url(http://source.unsplash.com/1600x900/?exam);
@@ -88,10 +86,7 @@
     display: table;
 }
 
-.card1 {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    margin: 8px;
-}
+
 
 .about-section {
     padding: 20px;
@@ -100,17 +95,34 @@
     color: white;
 }
 
-.column1 {
-    float: left;
-    width: 25%;
-    margin-bottom: 16px;
-    padding: 0 8px;
+/*--------------   FOR About Us    -------------------*/
+
+@media screen and (min-width:710px) {
+    .column1 {
+        float: left;
+        width: 25%;
+        margin-bottom: 16px;
+        padding: 0 8px;
+    }
 }
 
 .row {
     width: 100%;
 }
 
+.column1 {
+    margin-bottom: 16px;
+    padding: 0 8px;
+    min-width: 230px;
+}
+
+.card1 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 10px;
+}
+
+
+/* About US END*/
 .button1 {
     border: none;
     outline: 0;
@@ -122,6 +134,7 @@
     cursor: pointer;
     width: 100%;
 }
+
 .btn {
     color: white;
     border: 1px solid white;
@@ -233,6 +246,7 @@
     height: 100px;
     box-shadow: #555;
 }
+
 .ora {
     padding-top: 5px;
     width: 70%;
@@ -240,28 +254,44 @@
     margin-top: 50px;
     box-shadow: solid;
 }
+
 .href {
     text-decoration: none;
     color: black;
-    
+
 }
 
 .href :hover {
     color: #000 !important;
 
 }
+
 .pages {
     align-items: center;
     margin-left: 200px;
 }
 
 .rrtest {
- display: flex;
- padding: 20px;
- margin-left: 30pxs;
+    display: flex;
+    padding: 20px;
+    margin-left: 30pxs;
 }
 
 .rt2 {
     width: 100%;
     height: 50px;
+}
+
+
+/*------------------------  FEATURE COLLUMN  ------------------------------*/
+.rox{
+    margin: 0px 20px;
+}
+.feature{
+box-shadow: #474e5d3a 10px 10px 6px;
+padding: 20px;
+border-radius: 5px;
+}
+.feature:hover{
+    background-color: #d9e4fc;
 }
